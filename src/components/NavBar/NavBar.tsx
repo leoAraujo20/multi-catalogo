@@ -8,7 +8,7 @@ function NavBar() {
         <h2>Mini Catálogos</h2>
       </div>
       <div className="links">
-        <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/">Animais</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/animais">Animais</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/livros">Livros</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/pessoas">Pessoas</NavLink>
         <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/favoritos">Favoritos</NavLink>
