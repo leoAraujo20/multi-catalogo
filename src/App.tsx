@@ -1,8 +1,10 @@
+import NavBar from "./components/NavBar/NavBar"
+
 function App() {
 
   return (
     <>
-      <h1>Mini Catálogos</h1>
+      <NavBar />
     </>
   )
 }

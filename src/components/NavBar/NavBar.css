@@ -1,0 +1,25 @@
+.navBar {
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: oklch(26.9% 0 0);
+    font-weight: bold;
+}
+
+.navBar a.active {
+    color: oklch(87.1% 0.15 154.449);
+}
