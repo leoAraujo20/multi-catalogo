@@ -1,0 +1,16 @@
+.home-container {
+    padding: 20px;}
+
+.home-container h1 {
+    margin-bottom: 20px;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li { color: #333;
+    list-style: none;
+}
