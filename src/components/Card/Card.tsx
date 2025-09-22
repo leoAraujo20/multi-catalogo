@@ -8,11 +8,13 @@ interface CardProps {
 
 function Card({ content }: CardProps) {
     return (
-        <article className="card">
-            <h3>{content.nome}</h3>
-            <p>Espécie: {content.especie}</p>
+        <figure className="card">
             <img src={content.imagem} alt={content.nome} />
-        </article>
+            <div className="card-content">
+                <h3>{content.nome}</h3>
+                <p>Espécie: {content.especie}</p>
+            </div>
+        </figure>
     )
 }
 
