@@ -13,6 +13,7 @@ function Home() {
             <Card key={index} content={animal} />
           </li>
         ))}
+        
       </ul>
     </div>
   );
