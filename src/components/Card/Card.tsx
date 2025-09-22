@@ -1,4 +1,4 @@
-import type { IAnimal } from "../../interfaces/animal";
+import type { IAnimal } from "../../interfaces/interfaces";
 import "./Card.css";
 
 interface CardProps {

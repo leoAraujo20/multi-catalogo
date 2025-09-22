@@ -1,0 +1,10 @@
+.cards-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  color: #333;
+  list-style: none;
+}
