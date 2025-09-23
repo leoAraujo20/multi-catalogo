@@ -5,3 +5,10 @@
     margin-bottom: 20px;
 }
 
+.home-container h2 {
+    margin: 20px 0 10px 0;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 32px;
+    color: #333;
+}
