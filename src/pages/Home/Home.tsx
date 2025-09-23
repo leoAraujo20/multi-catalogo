@@ -1,4 +1,4 @@
-import CardsList from "../../components/Card/CardsList/CardsList";
+import CardsList from "../../components/CardsList/CardsList";
 import mocks from "../../mocks/mocks.json";
 import "./Home.css";
 

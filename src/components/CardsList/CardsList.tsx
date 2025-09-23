@@ -1,9 +1,9 @@
-import type { IAnimal, ILivros, IPessoas } from "../../../interfaces/interfaces";
-import Card from "../Card";
+import type { IAnimal, ILivros, IPessoas } from "../../interfaces/interfaces";
+import Card from "../Card/Card";
 import "./CardsList.css";
 
 interface CardsListProps {
-    items: (IAnimal | ILivros | IPessoas)[];
+  items: (IAnimal | ILivros | IPessoas)[];
 }
 
 function CardsList({ items }: CardsListProps) {
