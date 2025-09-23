@@ -7,6 +7,8 @@ function Home() {
   return (
     <div className="home-container">
       <CardsList items={mocks.animais} />
+      <CardsList items={mocks.livros} />
+      <CardsList items={mocks.pessoas} />
     </div>
   );
 }
