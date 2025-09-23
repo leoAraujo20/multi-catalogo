@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navBar">
       <div className="title">
-        <h2>Multi Catálogos</h2>
+        <h2>Multi Catálogo</h2>
       </div>
       <div className="links">
         <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/animais">Animais</NavLink>
