@@ -5,6 +5,7 @@ import Animals from "./pages/Animals/Animals";
 import Books from "./pages/Books/Books";
 import People from "./pages/People/People";
 import { FavoriteProvider } from "./context/favoriteContext";
+import Favorites from "./pages/Favorites/Favorites";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path="/animais" element={<Animals />} />
               <Route path="/livros" element={<Books />} />
               <Route path="/pessoas" element={<People />} />
+              <Route path="/favoritos" element={<Favorites />} />
             </Route>
           </Routes>
         </BrowserRouter>
